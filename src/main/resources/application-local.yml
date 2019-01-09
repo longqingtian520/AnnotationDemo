@@ -1,0 +1,16 @@
+server:
+  port: 9999
+
+com:
+  criss:
+    property:
+      name: ${aaa:hi}
+      age: 11
+      address[0]: "北京"
+      address[1]: "南京"
+      address[2]: "上海"
+      phone:
+        number: 1564543454
+
+        
+  
